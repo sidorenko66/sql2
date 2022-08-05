@@ -26,7 +26,8 @@ VALUES
 ('Livin’ la Vida Loca', 1999),
 ('Lose Yourself', 2002),
 ('LV', 1982),
-('Музыка для фильма', 1991);
+('Музыка для фильма', 1991),
+('Music to Be Murdered By', 2020);
 
 INSERT INTO Tracks (name, duration, album_id)
 VALUES
@@ -44,7 +45,8 @@ VALUES
 ('Шпионство', '00:05:47', 8),
 ('Если хочешь', '00:02:43', 8),
 ('6 утра', '00:03:26', 8),
-('Музыка для фильма', '00:02:49', 8);
+('Музыка для фильма', '00:02:49', 8),
+('Godzilla', '00:03:31', 9);
 
 INSERT INTO Collections (name, year)
 VALUES
@@ -76,8 +78,10 @@ VALUES
 (1, 3),
 (3, 4),
 (4, 5),
+(3, 6),
 (5, 7),
-(5, 8);
+(5, 8),
+(3, 9);
 
 INSERT INTO CollectionTrack (collection_id, track_id)
 VALUES
@@ -85,5 +89,5 @@ VALUES
 (1, 3),
 (1, 6),
 (2, 7),
-(4, 6),
+(4, 8),
 (5, 9);
